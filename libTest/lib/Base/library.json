@@ -1,0 +1,35 @@
+{
+  "name": "Base",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": "",
+  "authors":
+  {
+    "name":  "",
+    "url":   "",
+    "maintainer": true
+  },
+  "include": "",
+  "repository":
+  {
+    "type": "svn",
+    "url": ""
+  },
+  "homepage": "",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies": {
+	  "ArduinoJson": "^5.13.1"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "examples": "",
+  "libLDFMode": "off",
+  "libArchive": false,
+  "libCompatMode": "soft"
+}
